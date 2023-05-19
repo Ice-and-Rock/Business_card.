@@ -1,13 +1,131 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
+}
+.App {
+  background-color: #2b2a2a;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  align-items: center;
+  color: white;
+  background: linear-gradient(
+    to bottom,
+    rgb(58, 83, 68) 0%,
+    rgb(43, 61, 50) 100%
+  );
+  padding: 20px;
+  text-align: center;
+}
+.header > h1 {
+  margin-right: auto;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.header > h2 {
+  margin-left: auto;
+}
+.headerIcon {
+  max-width:90px;
+  max-height: 90px;
+  border-radius: 32px;
+  padding: 20px;
+  filter: brightness(100%);
+  transition: filter 0.3s ease;
+}
+.headerIcon:hover {
+  filter: brightness(70%); 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+
+}
+.body--upperTitle {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 0%;
+  margin-left: 5%;
+}
+.body--upperText {
+  color: rgb(83, 211, 40);
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: large;
+  margin-top: 0%;
+  margin-left: 15%
+}
+.body--lowerTitle {
+  color:black;
+  font-family: "Kanit", sans-serif;
+  font-weight:300;
+  font-size:x-large;
+  margin-left: 5%;
+  margin-top:12%
+}
+.body--lowerText {
+  color:black;
+  display: flex;
+  max-width: 600px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-size: large;
+  font-style: bold;
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-right:5%;
+  text-align: justify;
+}
+.headShot {
+  width: 350px;
+  height: 240px;
+  position: center;
+  border-radius: 50%;
+  margin-left: 20%;
+}
+
+main {
+  background-image: url(./images/Nick_bnw_icon.png);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position-x: 120%;
+  padding: 20px 20px;
+  color: rgb(0, 0, 0);
+}
+
+.body {
+
+  padding: 20px;
+  /* font-family: "Kanit", sans-serif; */
+  background: linear-gradient(
+    to bottom,
+    rgb(43, 61, 50) 0%,
+    rgb(58, 85, 69) 50%,
+    rgba(255, 255, 255, 0.561) 50%,
+    white 100%
+  );
+  /* background-color: rgb(56, 66, 62); */
+  height: 800px;
+  width: 600px;
+  margin:auto;
+  border-radius: 40px;
+}
+
+.footer {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  background-color: #304c3b;
+  background: linear-gradient(
+    to bottom,
+    #304c3b 0%,
+    rgb(39, 56, 46) 100%
+  );
+  padding: 10px;
+  text-align: center;
 }
