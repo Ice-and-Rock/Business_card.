@@ -1,5 +1,14 @@
 import React from "react";
 import nickHeadshot from "../images/Nick_headhshot.jpeg";
+import contactQRCode from "../images/frame-2.png";
+
+// Render Body with the following characteristics:
+// all rendered in an element to be grouped in CSS flexbox
+// - Headshot ✅
+// - upperTitle / upperText ✅
+// - lowerTitle / lowerText ✅
+// - <p> element containing personal description ✅
+// - QR code for contact info ✅
 
 function Body() {
   return (
@@ -18,6 +27,11 @@ function Body() {
           Development Programme. I'm excited to learn more about web development
           and to continue my career in the Tech industry.
         </p>
+        <img
+          className="body--QRCode"
+          src={contactQRCode}
+          alt="Contact QR Code"
+        />
       </lower>
     </div>
   );

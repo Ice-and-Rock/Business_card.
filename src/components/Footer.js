@@ -1,5 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+
+// Render Footer with text 
+// All rendered inside an element to be used with CSS flexbox
 
 function Footer() {
   return (
