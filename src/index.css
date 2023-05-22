@@ -20,6 +20,7 @@
 }
 .header > h1 {
   margin-right: auto;
+   letter-spacing: 1px;
   font-family: "Kanit", sans-serif;
   font-weight: 300;
   font-style: italic;
@@ -47,6 +48,7 @@ body {
   font-family: "Kanit", sans-serif;
   font-weight: 500;
   font-style: normal;
+  letter-spacing: 1px;
   margin-bottom: 0%;
   margin-left: 5%;
 }
@@ -125,6 +127,7 @@ main {
   font-family: "Kanit", sans-serif;
   font-weight: 100;
   font-style: italic;
+  letter-spacing: 1px;
   background-color: #304c3b;
   background: linear-gradient(to bottom, #304c3b 0%, rgb(39, 56, 46) 100%);
   padding: 10px;
