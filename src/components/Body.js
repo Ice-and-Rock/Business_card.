@@ -23,7 +23,7 @@ function Body() {
         <p className="body--lowerText">
           I'm a full stack web developer with a passion for learning and
           creating. I have been running my own electrical company for several
-          years and I' am a graduate of the School of Code Full Stack Web
+          years and I am a graduate of the School of Code Full Stack Web
           Development Programme. I'm excited to learn more about web development
           and to continue my career in the Tech industry.
         </p>
