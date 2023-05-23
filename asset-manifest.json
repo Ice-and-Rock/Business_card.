@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Business_card./static/css/main.4af818bd.css",
+    "main.js": "/Business_card./static/js/main.11fd10e5.js",
+    "static/media/Nick_bnw_icon.png": "/Business_card./static/media/Nick_bnw_icon.0fd43fb46f7216e0352f.png",
+    "static/media/Nick_headhshot.jpeg": "/Business_card./static/media/Nick_headhshot.75800414ea8ec5bdec2a.jpeg",
+    "static/media/icon_Github.png": "/Business_card./static/media/icon_Github.a5527b5c02e754fc4a6d.png",
+    "static/media/icon_LinkedIn.png": "/Business_card./static/media/icon_LinkedIn.9df3772694f9ed1c21b5.png",
+    "static/media/icon_Whatsapp.png": "/Business_card./static/media/icon_Whatsapp.6e474623788878b2e6ff.png",
+    "static/media/frame-2.png": "/Business_card./static/media/frame-2.d239e25df8bd949fb77d.png",
+    "index.html": "/Business_card./index.html",
+    "main.4af818bd.css.map": "/Business_card./static/css/main.4af818bd.css.map",
+    "main.11fd10e5.js.map": "/Business_card./static/js/main.11fd10e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4af818bd.css",
+    "static/js/main.11fd10e5.js"
+  ]
+}
