@@ -11,14 +11,6 @@ function App() {
         <Body />
       </main>
       <Footer />
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Create a link in React here
-      </a>
     </div>
   );
 }
