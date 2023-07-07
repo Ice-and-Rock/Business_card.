@@ -10,7 +10,7 @@ import icon_LinkedIn from "../images/icon_LinkedIn.png";
 // - text on left ✅
 // - icons on right: LinkedIn, Github, Email, WhatsApp & Facebook ✅
 // - Practice two different clickable event handlers for icons:
-// -- use onClick variable => function to open a new window when WhatsApp/Facebook are clicked ✅
+// -- use onClick variable => HTML function to open a new window when WhatsApp/Facebook are clicked ✅
 // -- use onClick then handleClick function to open a new window when LinkedIn, Github and Email icons are clicked ✅
 
 function Header() {
